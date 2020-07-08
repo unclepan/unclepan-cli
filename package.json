@@ -1,8 +1,12 @@
 {
   "name": "unclepan-cli",
   "version": "1.0.0",
-  "description": "脚手架工具",
-  "repository": "",
+  "description": "项目生成脚手架工具",
+  "repository": "https://github.com/unclepan/unclepan-cli",
+  "keywords": [
+    "unclepan-cli"
+  ],
+  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +18,10 @@
     "unclepan-list": "bin/list.js",
     "unclepan-init": "bin/init.js"
   },
-  "author": "",
+  "author": {
+    "name": "杨盼",
+    "email": "738912168@qq.com"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
